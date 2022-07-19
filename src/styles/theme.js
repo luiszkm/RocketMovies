@@ -9,10 +9,11 @@ export default {
     QUATERNARY_COLOR: "#FF859B",
     
     WHITE: "#F4EDE8",
-    ORANGE: "#FF9000",
 
-    GRAY_400: "#948F99",
-    Black_300: "#0D0C0F",
+    ORANGE: "#FF9000",
+    WHITE_400: "#E5E5E5;",
+
+    BLACK_300: "#312E38",
 
     LIGHT_PINK: "#FF859B"
   }
