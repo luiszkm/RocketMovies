@@ -4,7 +4,8 @@ import { Input } from '../../components/Input';
 import { ButtonText } from '../../components/ButtonText';
 import { Button } from '../../components/Button';
 
-import {AiOutlineArrowLeft} from'react-icons/ai';
+import { AiOutlineArrowLeft } from 'react-icons/ai';
+import { Textarea } from '../../components/Textarea';
 
 
 export function CreateMovie() {
@@ -14,7 +15,7 @@ export function CreateMovie() {
       <Header />
       <main>
 
-        <ButtonText title='voltar' isActive icon={<AiOutlineArrowLeft/>}/>
+        <ButtonText title='voltar' isActive icon={<AiOutlineArrowLeft />} />
         <h2>Novo Filme</h2>
 
         <Form>
@@ -22,14 +23,14 @@ export function CreateMovie() {
 
             <Input className=""
               placeholder="Pesquisar pelo título" />
-              <Input placeholder="Pesquisar pelo título" />
+            <Input placeholder="Sua nota de 0 a 5" />
           </div>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <Textarea placeholder ='observações' />
           <div>
-            <Button title='Excluir filme' secondary_button/>
-            <Button title='Salvar filme'/>
+            <Button title='Excluir filme' secondary_button />
+            <Button title='Salvar filme' />
 
-            
+
           </div>
         </Form>
 

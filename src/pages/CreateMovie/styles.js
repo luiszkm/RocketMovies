@@ -26,6 +26,8 @@ height: 50rem;
 display: flex;
 flex-direction: column;
 align-items: center;
+padding: 4rem 1rem;
+background: red;
 gap: 4rem;
 >div{
   display: flex;
