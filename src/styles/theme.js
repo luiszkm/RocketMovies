@@ -10,7 +10,7 @@ export default {
     
     WHITE: "#F4EDE8",
 
-    ORANGE: "#FF9000",
+    BG_BLACK: "#0D0C0F",
     WHITE_400: "#E5E5E5;",
 
     BLACK_300: "#312E38",

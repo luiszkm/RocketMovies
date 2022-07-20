@@ -6,11 +6,13 @@ width: 100%;
 display: flex;
 height: 5.6rem;
 align-items: center;
+display: flex;
+justify-content: center;
 background-color: ${({theme})=>theme.COLORS.SECONDARY_COLOR};
 color: ${({theme})=>theme.COLORS.GRAY_400};
 border-radius: 1rem;
 margin-bottom: 8px;
-padding: 19px 24px;display: none;
+padding: 19px 24px;
 background: #262529;
 
 &.sr-only{
@@ -33,9 +35,8 @@ background: #262529;
   color:${({theme})=> theme.COLORS.WHITE};
   outline: none;
   
-  background: #262529;
 
-  background: transparent;
+  background: transparent; 
   &::placeholder{
     color:${({theme})=> theme.COLORS.GRAY_400};
   }

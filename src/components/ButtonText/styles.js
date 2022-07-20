@@ -6,7 +6,9 @@ background: none;
 color: ${({ theme, isActive }) => isActive? theme.COLORS.LIGHT_PINK: theme.COLORS.SECONDARY_COLOR};
 border: none;
 font-size: 1.6rem;
-
+display: flex;
+align-items: center;
+gap: 1rem;
 
 `
 
