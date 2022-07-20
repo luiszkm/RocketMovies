@@ -22,16 +22,17 @@ margin: 0 auto;
 export const Form = styled.div`
 
 width: 100%;
-height: 50rem;
+
 display: flex;
 flex-direction: column;
 align-items: center;
 padding: 4rem 1rem;
-background: red;
+
 gap: 4rem;
 >div{
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 `

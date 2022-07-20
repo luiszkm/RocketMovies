@@ -8,20 +8,19 @@ export default createGlobalStyle`
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-}
-:root{
+  }
+  :root{
   font-size: 62.5%;
 
-}
-body{
+  }
+  body{
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
-  background: ${({theme})=>theme.COLORS.TERNARY_COLOR};
+  background: ${({ theme }) => theme.COLORS.TERNARY_COLOR};
   color:  ${({ theme }) => theme.COLORS.WHITE};
   font-family: 'Roboto Slab', serif;
-;
-}
-.sr-only {
+  }
+  .sr-only {
   opacity: 0;
   width: 1px;
   height: 1px;
@@ -31,15 +30,17 @@ body{
   overflow: hidden;
   border-width: 0;
   clip: rect(0, 0, 0, 0);
-}
-.hide{
+  }
+  .hide{
   display: none;
-}
-button, a {
+  }
+  button,
+  a {
     cursor: pointer;
     transition: filter 0.2s;
   }
-  button:hover, a:hover{
+  button:hover,
+   a:hover{
     cursor: pointer;
     filter: brightness(0.9);
   }
