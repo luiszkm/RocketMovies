@@ -7,7 +7,7 @@ export function Avatar({ src, alt, ...rest }) {
     <Container
       alt={alt}
       src={src}
-
+      {...rest}
     >
     </Container>
 
